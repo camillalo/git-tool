@@ -1,6 +1,6 @@
 {
   "name": "git-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "license": "ISC",
   "bin": {
     "git-tool": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
   }
 }
